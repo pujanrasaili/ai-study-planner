@@ -9,6 +9,7 @@ A full-stack web application that helps students plan their studies intelligentl
 - 🔐 **JWT Authentication** — Secure register/login
 - 📚 **Subject Management** — Add subjects with exam dates, difficulty, and topic tracking
 - 🤖 **AI Schedule Generator** — Groq Llama 3 creates a personalized 7-day study plan
+- ⏱️ **Pomodoro Timer** — Circular timer with 25min focus, 5min & 15min breaks
 - 📊 **Progress Tracking** — Charts showing study hours, streaks, and topic completion
 - 🔥 **Study Streaks** — Stay motivated with daily streak tracking
 - 🌙 **Dark UI** — Sleek dark theme with smooth animations
@@ -31,7 +32,7 @@ A full-stack web application that helps students plan their studies intelligentl
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-study-planner.git
+git clone https://github.com/pujanrasaili/ai-study-planner.git
 cd ai-study-planner
 ```
 
@@ -47,7 +48,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Configure environment
-cp .env.example .env
+copy .env.example .env
 # Edit .env and add your GROQ_API_KEY
 
 # Run the server
@@ -114,7 +115,8 @@ ai-study-planner/
 │   │   │   ├── Register.jsx
 │   │   │   ├── Subjects.jsx
 │   │   │   ├── Schedule.jsx
-│   │   │   └── Progress.jsx
+│   │   │   ├── Progress.jsx
+│   │   │   └── Pomodoro.jsx
 │   │   ├── components/
 │   │   │   └── Layout.jsx
 │   │   └── utils/
@@ -126,18 +128,10 @@ ai-study-planner/
 
 ---
 
-## 📸 Screenshots
-
-> Dashboard with subject overview, stats, and quick actions  
-> AI-generated weekly study schedule  
-> Progress charts with streaks and topic completion
-
----
-
 ## 🧑‍💻 Author
 
-**Pujan Rasaili**  
-Software Engineering Student  
+**Pujan Rasaili**
+Software Engineering Student
 GitHub: [@pujanrasaili](https://github.com/pujanrasaili)
 
 ---
