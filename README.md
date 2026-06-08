@@ -4,6 +4,10 @@ A full-stack web application that helps students plan their studies intelligentl
 
 ---
 
+## 🌐 Live Demo
+👉 https://ai-study-planner-weld.vercel.app
+---
+
 ## ✨ Features
 
 - 🔐 **JWT Authentication** — Secure register/login
