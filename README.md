@@ -1,22 +1,22 @@
-# 🧠 StudyAI — AI-Powered Study Planner
+# StudyAI — AI-Powered Study Planner
 
 A full-stack web application that helps students plan their studies intelligently using AI. Built with **React + Vite** (frontend) and **Python Flask** (backend), powered by **Groq (Llama 3)** for AI schedule generation.
 
 ---
 
-## 🌐 Live Demo
-👉 https://ai-study-planner-weld.vercel.app
+## Live Demo
+https://ai-study-planner-weld.vercel.app
 ---
 
-## ✨ Features
+## Features
 
-- 🔐 **JWT Authentication** — Secure register/login
-- 📚 **Subject Management** — Add subjects with exam dates, difficulty, and topic tracking
-- 🤖 **AI Schedule Generator** — Groq Llama 3 creates a personalized 7-day study plan
-- ⏱️ **Pomodoro Timer** — Circular timer with 25min focus, 5min & 15min breaks
-- 📊 **Progress Tracking** — Charts showing study hours, streaks, and topic completion
-- 🔥 **Study Streaks** — Stay motivated with daily streak tracking
-- 🌙 **Dark UI** — Sleek dark theme with smooth animations
+- **JWT Authentication** — Secure register/login
+- **Subject Management** — Add subjects with exam dates, difficulty, and topic tracking
+- **AI Schedule Generator** — Groq Llama 3 creates a personalized 7-day study plan
+- **Pomodoro Timer** — Circular timer with 25min focus, 5min & 15min breaks
+- **Progress Tracking** — Charts showing study hours, streaks, and topic completion
+- **Study Streaks** — Stay motivated with daily streak tracking
+- **Dark UI** — Sleek dark theme with smooth animations
 
 ---
 
@@ -32,7 +32,7 @@ A full-stack web application that helps students plan their studies intelligentl
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -76,7 +76,7 @@ Frontend runs on `http://localhost:5173`
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 Create `backend/.env`:
 ```env
@@ -89,7 +89,7 @@ Get your free Groq API key at: https://console.groq.com
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-study-planner/
@@ -132,7 +132,7 @@ ai-study-planner/
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **Pujan Rasaili**
 Software Engineering Student
@@ -140,6 +140,6 @@ GitHub: [@pujanrasaili](https://github.com/pujanrasaili)
 
 ---
 
-## 📄 License
+## License
 
 MIT License — feel free to use and modify.
